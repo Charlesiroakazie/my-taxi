@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Removing default padding on the body tag */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Set main color scheme */
+.color-main {
+    color: #fdc903;
+}
+
+.background-main {
+    background-color: #fdc903;
+}
+
+
+
+/* Styling the nav bar element */
+nav {
+    margin: 0;
+    background-color: #d8d8db;
+}
+
+/* Style the nav bar ul element */
+nav ul {
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling the nav bar list items */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* Styling the nav bar link items */
+nav ul li a {
+    color: black;
+    padding: 7px 25px;
+    display: inline-block;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Apply background color on hover */
+nav ul li a:hover, nav ul li a.active {
+    background-color: #fdc903;
+}
+
+
+
+/* Styling the page header */
+section.header header h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Unstyling the link element */
+section.header header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style logo container */
+section.header div.taxi-icon {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styling the logo */
+section.header div.taxi-icon img {
+    width: 65px;
+    height: 65px;
+}
+
+
+/* Styling the banner section */
+section.header div.taxi-banner {
+    margin: 20px 0;
+}
+
+/* Styling image banner */
+section.header div.taxi-banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Styling the features section */
+section.features {
+    margin: 20px 0;
+}
+
+/* Styling container element */
+div.container {
+    padding: 20px 50px;
+}
+
+/* Set display of row to flex */
+div.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Set justification to left */
+.justify-left {
+    justify-content: left!important;
+}
+
+/* Set the width of each column to nine items */
+div.col-9 {
+    width: 75%;
+    padding: 15px;
+}
+
+/* Set the width of each column to two items */
+div.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+/* Set the width of each column to three items */
+div.col-4 {
+    width: 33.3%;
+    padding: 15px;
+}
+
+/* Set the width of each column to four items */
+div.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+/* Styling the features boxes */
+.p-md {
+    padding: 20px;
+}
+
+/* Set background color */
+.bg-lightgrey {
+    background-color: #e5e5e7;
+}
+
+
+/* Styling features icon */
+section.features .inline-block {
+    display: inline-block;
+}
+
+/* Styling the top big text */
+.top-big {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+/* Styling the bottom big text */
+.bottom-big {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+/* Position up */
+.twilt-up {
+    position: relative;
+    top: -10px;
+}
+
+
+/* Styling phone section */
+section.phone {
+    padding: 40px 0;
+}
+
+/* shifting the image to the right */
+section.phone div.img-right {
+    text-align: right;
+}
+
+/* Styling the phone number */
+div.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+div.xxx-text {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+/* Styling the contact section */
+section.contact {
+    padding: 40px 0;
+}
+
+/* Add enough padding to the form container */
+section.contact div.form {
+    padding: 0 40px;
+}
+
+section.contact div.form .row .px-0 {
+    padding: 0;
+}
+
+/* Add padding to each input row */
+section.contact div.form div.row div.pb-sm {
+    padding-bottom: 15px;
+}
+
+
+/* Styling the form fields */
+section.contact div.form form input:not(input[type="radio"]),
+section.contact div.form form textarea,
+section.contact div.form form select {
+    background-color: #f0f3f5;
+    border: 1px solid #f0f3f5;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%
+}
+
+/* Adding hover and active effects */
+section.contact div.form form input:not(input[type="radio"]):hover,
+section.contact div.form form textarea:hover,
+section.contact div.form form select:hover {
+    background-color: white;
+}
+
+/* Styling the submit button */
+#submit {
+    margin-top: 15px;
+    padding: 10px 25px!important;
+    background-color: #fdc903;
+    color: white;
+    border: 1px solid #fdc903;
+    outline: none;
+}
+
+/* Add hover effect to submit button */
+#submit:hover {
+    background-color: #585757;
+    color: #fdc903;
+    border: 1px solid #585757;
+}
+
+/* Adding margin to input and select fields */
+.ml-sm {
+    margin-left: 10px;
+}
+.mr-sm {
+    margin-right: 10px;
+}
+
+
+
+/* Styling the cars type */
+section.contact .taxi-types .car {
+    width: 100%;
+}
+
+/* Styling the taxi images */
+section.contact .taxi-types .car img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling image type description */
+section.contact .taxi-types .car div.relative {
+    position: relative;
+    /* height: 35px; */
+    top: -38px;
+    background-color: rgb(88, 87, 87, .8);
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    width: 50%;
+}
+
+/* Adding hover effect to image description */
+section.contact .taxi-types .car:hover div.relative {
+    width: 100%;
+}
+
+
+
+/* Styling the footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #4a4a4a;
+    color: white;
+}
+
+/* Styling footer links */
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Making text lighter */
+.light-text {
+    color: #aaa;
+}
+
+/* Styling social media button */
+.social-button {
+    display: inline-block;
+    background-color: #fdc903;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Styling the footer contact number */
+footer .contact-number {
+    font-size: 40px;
+}

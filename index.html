@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Taxi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Add navigational bar -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Cars</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- The main page content -->
+    <main>
+        <section class="header">
+            <header>
+                <a href="index.html">
+                    <h1>MY <span class="color-main">T</span>AXI</h1>
+                    <div class="taxi-icon">
+                        <img src="images/logo.png" alt="Taxi Icon">
+                    </div>
+                </a>
+            </header>
+            <div class="taxi-banner">
+                <img src="images/slide.jpg" alt="Taxi Images">
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="p-md bg-lightgrey">
+                            <img src="images/icons/icon1.png" alt="Clock Icon" class="inline-block">
+                            <div class="inline-block twilt-up">
+                                <span class="top-big">
+                                    Fast&
+                                </span> <br>
+                                <span class="bottom-big color-main">
+                                    Safe
+                                </span>
+                            </div>
+                            <div class="features-text">
+                                Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-md bg-lightgrey">
+                            <img src="images/icons/icon2.png" alt="Clock Icon" class="inline-block">
+                            <div class="inline-block twilt-up">
+                                <span class="top-big">
+                                    Best
+                                </span> <br>
+                                <span class="bottom-big color-main">
+                                    Prices
+                                </span>
+                            </div>
+                            <div class="features-text">
+                                Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-md bg-lightgrey">
+                            <img src="images/icons/icon3.png" alt="Clock Icon" class="inline-block">
+                            <div class="inline-block twilt-up">
+                                <span class="top-big">
+                                    Package
+                                </span> <br>
+                                <span class="bottom-big color-main">
+                                    Delivery
+                                </span>
+                            </div>
+                            <div class="features-text">
+                                Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="phone background-main">
+            <div class="row">
+                <div class="col-3">
+                    <div class="img">
+                        <img src="images/phone-block.jpg" alt="Abstract Image">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="text-center xxx-text">
+                        + 234 646 6597 597 <br>
+                        Order Now!
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="img-right">
+                        <img src="images/phone-block.jpg" alt="Abstract Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form">
+                        <form action="#" method="post">
+                            <h2>Booking Form</h2>
+                            <div class="form-fields">
+                                <div class="row">
+                                    <div class="col-6 px-0 pb-sm mr-sm">
+                                        <input type="text" placeholder="Name:">
+                                    </div>
+                                    <div class="col-6 px-0 pb-sm ml-sm">
+                                        <input type="email" placeholder="Email:">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 px-0 pb-sm mr-sm">
+                                        <input type="text" placeholder="From:">
+                                    </div>
+                                    <div class="col-6 px-0 pb-sm ml-sm">
+                                        <input type="text" placeholder="To:">
+                                    </div>
+                                </div>
+                                <div class="row justify-left">
+                                    <div class="col-3 px-0 pb-sm">
+                                        Time
+                                    </div>
+                                    <div class="col-9 px-0 pb-sm"> 
+                                        <input type="time">
+                                    </div>
+                                </div>
+                                <div class="row justify-left">
+                                    <div class="col-3 px-0 pb-sm">
+                                        Date
+                                    </div>
+                                    <div class="col-9 px-0 pb-sm"> 
+                                        <input type="date" placeholder="20/04/2022">
+                                    </div>
+                                </div>
+                                <div class="row justify-left">
+                                    <div class="px-0 pb-sm"> 
+                                        Comfort <br>
+                                        <input type="radio" name="comfort" id="cheap" value="cheap">
+                                        <label for="cheap">Cheap</label>
+                                        <input type="radio" name="comfort" id="standard" value="standard">
+                                        <label for="standard">Standard</label>
+                                        <input type="radio" name="comfort" id="lux" value="lux">
+                                        <label for="lux">Luxury</label>
+                                    </div>
+                                </div>
+                                <div class="row justify-left">
+                                    <div class="col-6 px-0 pb-sm mr-sm">
+                                        <div class="row justify-left">
+                                            <div class="col-6 px-0 pb-sm">
+                                                Adults
+                                            </div>
+                                            <div class="col-6 px-0 pb-sm">
+                                                <select name="adults" id="adults">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6 px-0 pb-sm ml-sm">
+                                        <div class="row justify-left">
+                                            <div class="col-6 px-0 pb-sm">
+                                                Children
+                                            </div>
+                                            <div class="col-6 px-0 pb-sm">
+                                                <select name="children" id="children">
+                                                    <option value="0">0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-left">
+                                    <textarea name="message" id="message" cols="30" rows="15" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" id="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="taxi-types">
+                        <div class="car">
+                            <img src="images/page1_img1.jpg" alt="Economic Car">
+                            <div class="relative">
+                                Economy
+                            </div>
+                        </div>
+                        <div class="car">
+                            <img src="images/page1_img2.jpg" alt="Standard Car">
+                            <div class="relative">
+                                Standard
+                            </div>
+                        </div>
+                        <div class="car">
+                            <img src="images/page1_img3.jpg" alt="Luxury Car">
+                            <div class="relative">
+                                Luxury
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-4">
+                <div class="about">
+                    <span class="top-big">
+                        My <span class="color-main">T</span>axi
+                    </span>
+                    &copy; 2022 | <a href="#">Privacy Policy</a> <br>
+                    <span class="light-text">
+                        Website designed by CO Computers
+                    </span>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="social">
+                    <a href="#" class="social-button">f</a>
+                    <a href="#" class="social-button">t</a>
+                    <a href="#" class="social-button">g</a>
+                </div>
+            </div>
+            <div class="col-4 text-right">
+                <div class="contact-number">
+                    Call Us: <br>
+                    +234589554437854
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
